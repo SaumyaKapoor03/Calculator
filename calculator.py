@@ -1,7 +1,6 @@
 a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
 out=0
-c=0
 op = input("Choose operation to be performed (+,-,*,/): ")
 if op == '+':
     out=a+b
