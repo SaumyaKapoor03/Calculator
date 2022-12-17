@@ -15,4 +15,7 @@ elif op == '/':
     out=a/b
 else:
     out="Enter a valid operation!"
-print(a, op, b, "=",out)
+if out=='Enter a valid operation!':
+    print(out)
+else:
+    print(a, op, b, "=",out)
